@@ -11,7 +11,7 @@
     />
     <!-- Css files -->
     <link href="./output.css" rel="stylesheet" />
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="./style.css" />
     <!-- Google Fonts Link -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -26,7 +26,7 @@
     </div>
 
     <nav
-      class="w-full fixed px-5 lg:px-8 xl:px-[8%] py-4 flex items-center justify-between z-50"
+      class="w-full fixed px-5 lg:px-8 xl:px-[8%] py-4 flex items-center justify-between z-50 nav"
     >
       <img src="images/R-logo.jpg" alt="" class="w-30 cursor-pointer mr-14" />
 
@@ -83,21 +83,21 @@
       <img
         src="images/raj profile.jpg"
         alt=""
-        class="rounded-full w-40 object-cover"
+        class="rounded-full w-40 object-cover nav"
       />
-      <h3 class="flex items-center gap-2 text-xl md:text-2xl mb-3">
-        Hi! I'm Raj Roy <img src="images/hand-icon.png" alt="" class="w-6" />
+      <h3 class="flex items-center gap-2 text-xl md:text-2xl mb-3 nav">
+        Hi! I'm Raj Roy 
       </h3>
-      <h1 class="text-3xl sm:text-6xl lg:text-[60px]">
+      <h1 class="text-3xl sm:text-6xl lg:text-[60px] nav">
         frontend web developer
       </h1>
-      <p class="max-w-2xl mx-auto">
+      <p class="max-w-2xl mx-auto animation-left">
         I’m a passionate Front-End Developer, turning ideas into interactive web
         experiences using HTML, CSS, JavaScript & React.js — currently building
         real-world projects to sharpen my craft.
       </p>
 
-      <div class="flex flex-col sm:flex-row items-center gap-4 mt-4">
+      <div class="flex flex-col sm:flex-row items-center gap-4 mt-4 animation-right">
         <a
           href="#contact"
           class="px-10 py-3 border rounded-full bg-gradient-to-r from-[#6d51a5] to-[#e4a7c5] text-white flex items-center gap-2"
@@ -106,10 +106,10 @@
         /></a>
 
         <a
-          href="images/logo.png"
+          href="images/Raj Roy's Resume .pdf"
           download
           class="px-10 py-3 border rounded-full border-gray-500 flex items-center gap-2 bg-white"
-          >My Resume <img src="images/download-icon.png" alt="" class="w-4"
+          >My Resume <img src="images/right-arrow.png" alt="" class="w-4"
         /></a>
       </div>
     </div>
@@ -117,27 +117,27 @@
     <!-- About me -->
 
     <div id="about" class="w-full px-[12%] py-10 scroll-mt-16">
-      <h4 class="text-center mb-2 text-lg">Introduction</h4>
-      <h2 class="text-center text-5xl">About me</h2>
+      <h4 class="text-center mb-2 text-lg nav">Introduction</h4>
+      <h2 class="text-center text-5xl nav">About me</h2>
       <div class="flex w-full flex-col lg:flex-row items-center gap-20 my-20">
         <div class="max-w-max mx-auto relative">
           <img
             src="images/1708432217237.jpg"
             alt=""
-            class="w-64 sm:w-80 rounded-3xl max-w-none shadow-[0_4px_55px_rgba(149,0,162,0.15)]"
+            class="w-64 sm:w-80 rounded-3xl max-w-none shadow-[0_4px_55px_rgba(149,0,162,0.15)] animation-left"
           />
           <div
-            class="bg-white w-1/2 aspect-square absolute right-0 bottom-0 rounded-full translate-x-1/4 translate-y-1/3 shadow-[0_4px_55px_rgba(149,0,162,0.15)] flex items-center justify-center"
+            class="bg-white w-1/2 aspect-square absolute right-0 bottom-0 rounded-full translate-x-1/4 translate-y-1/3 shadow-[0_4px_55px_rgba(149,0,162,0.15)] flex items-center justify-center animation-left"
           >
             <img src="images/circular-text.png" alt="" class="w-full spin" />
             <img
-              src="images/dev-icon.png"
+              src="images/about-programmer.png"
               alt=""
-              class="w-1/4 absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2"
+              class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2"
             />
           </div>
         </div>
-        <div class="flex-1">
+        <div class="flex-1 animation-right">
           <p class="mb-10 max-w-2xl">
             I am an experience frontend developer with over a decade of
             professional expertise in the field. Throughout my career, I have
@@ -205,7 +205,7 @@
 
     <!-- SERVICES SECTION -->
 
-    <div id="service" class="w-full px-[12%] py-10 scroll-mt-20">
+    <div id="service" class="w-full px-[12%] py-10 scroll-mt-20 boxes">
       <h4 class="text-center mb-2 text-lg">What I offer</h4>
       <h2 class="text-center text-5xl">My services</h2>
       <p class="text-center max-w-2xl mx-auto mt-5 mb-12">
@@ -218,7 +218,7 @@
         <div
           class="border border-gray-400 rounded-lg px-8 py-12 hover:shadow-[4px_4px_0_#000] cursor-pointer hover:bg-[#fcf4ff] hover:-translate-y-1 duration-500"
         >
-          <img src="images/web-icon.png" alt="" class="w-10" />
+          <img src="images/web.png" alt="" class="w-10" />
           <h3 class="text-lg my-4 text-gray-700">Web Design</h3>
           <p class="text-sm text-gray-600 leading-5">
             Web development is the process of building, programming...
@@ -231,7 +231,7 @@
         <div
           class="border border-gray-400 rounded-lg px-8 py-12 hover:shadow-[4px_4px_0_#000] cursor-pointer hover:bg-[#fcf4ff] hover:-translate-y-1 duration-500"
         >
-          <img src="images/mobile-icon.png" alt="" class="w-10" />
+          <img src="images/android.png" alt="" class="w-10" />
           <h3 class="text-lg my-4 text-gray-700">Web Development</h3>
           <p class="text-sm text-gray-600 leading-5">
             Web development is the process of building, programming...
@@ -244,7 +244,7 @@
         <div
           class="border border-gray-400 rounded-lg px-8 py-12 hover:shadow-[4px_4px_0_#000] cursor-pointer hover:bg-[#fcf4ff] hover:-translate-y-1 duration-500"
         >
-          <img src="images/ui-icon.png" alt="" class="w-10" />
+          <img src="images/user-experience.png" alt="" class="w-10" />
           <h3 class="text-lg my-4 text-gray-700">UI/UX Design</h3>
           <p class="text-sm text-gray-600 leading-5">
             Web development is the process of building, programming...
@@ -257,7 +257,7 @@
         <div
           class="border border-gray-400 rounded-lg px-8 py-12 hover:shadow-[4px_4px_0_#000] cursor-pointer hover:bg-[#fcf4ff] hover:-translate-y-1 duration-500"
         >
-          <img src="images/graphics-icon.png" alt="" class="w-10" />
+          <img src="images/picture_15885842.png" alt="" class="w-10" />
           <h3 class="text-lg my-4 text-gray-700">Graphic Design</h3>
           <p class="text-sm text-gray-600 leading-5">
             Web development is the process of building, programming...
@@ -270,7 +270,7 @@
     </div>
 
     <!-- MY WORK SECTION -->
-    <div id="work" class="w-full px-[12%] py-10 scroll-mt-20">
+    <div id="work" class="w-full px-[12%] py-10 scroll-mt-20 boxes">
       <h4 class="text-center mb-2 text-lg">My Portfolio</h4>
       <h2 class="text-center text-5xl">My Latest Work</h2>
       <p class="text-center max-w-2xl mx-auto mt-5 mb-12">
@@ -281,33 +281,33 @@
       <div
         class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 my-10 gap-5"
       >
-        <div
-          class="aspect-square bg-[url('./images/work-1.png')] bg-no-repeat bg-cover bg-center rounded-lg relative cursor-pointer group"
-        >
+        <div id="net-container"
+          class="aspect-square bg-no-repeat bg-cover bg-center rounded-lg relative cursor-pointer group"
+        > <a href="https://a36078.netlify.app/">
           <div
             class="bg-white w-10/12 rounded-md absolute bottom-5 left-1/2 -translate-x-1/2 py-3 px-5 flex items-center justify-between duration-500 group-hover:bottom-7"
           >
             <div>
-              <h2 class="font-semi">Frontend project</h2>
-              <p class="text-sm text-gray-700">Web Design</p>
+              <h2 class="font-semi">Netflix Clone</h2>
+              <p class="text-sm text-gray-700">Responsive UI</p>
             </div>
             <div
               class="border rounded-full border-black w-9 aspect-square flex items-center justify-center shadow-[2px_2px_0_#000] group-hover:bg-lime-300 transition"
             >
               <img src="images/send-icon.png" alt="" class="w-5" />
             </div>
-          </div>
+          </div></a>
         </div>
 
-        <div
-          class="aspect-square bg-[url('./images/work-2.png')] bg-no-repeat bg-cover bg-center rounded-lg relative cursor-pointer group"
+        <div id="qcafe"
+          class="aspect-square bg-no-repeat bg-cover bg-center rounded-lg relative cursor-pointer group"
         >
           <div
             class="bg-white w-10/12 rounded-md absolute bottom-5 left-1/2 -translate-x-1/2 py-3 px-5 flex items-center justify-between duration-500 group-hover:bottom-7"
           >
             <div>
-              <h2 class="font-semi">Frontend project</h2>
-              <p class="text-sm text-gray-700">Web Design</p>
+              <h2 class="font-semi">Q'Cafe</h2>
+              <p class="text-sm text-gray-700">Dynamic Website</p>
             </div>
             <div
               class="border rounded-full border-black w-9 aspect-square flex items-center justify-center shadow-[2px_2px_0_#000] group-hover:bg-lime-300 transition"
@@ -380,7 +380,7 @@
     </div> -->
     <div
       id="contact"
-      class="w-full px-4 sm:px-8 lg:px-[12%] py-10 scroll-mt-20 bg-[url('./images/footer-bg-color.png')] bg-no-repeat bg-[length:90%_auto] bg-center"
+      class="w-full px-4 sm:px-8 lg:px-[12%] py-10 scroll-mt-16 bg-[url('./images/footer-bg-color.png')] bg-no-repeat bg-[length:90%_auto] bg-center boxes"
     >
       <h4 class="text-center mb-2 text-base sm:text-lg">Connect With Me</h4>
       <h2 class="text-center text-3xl sm:text-4xl md:text-5xl">Get In Touch</h2>
@@ -448,6 +448,8 @@
       </div>
     </div>
 
+    <!-- ScrollReveal -->
+    <script src="https://unpkg.com/scrollreveal"></script>
     <!-- Script.js File -->
     <script src="script.js"></script>
   </body>

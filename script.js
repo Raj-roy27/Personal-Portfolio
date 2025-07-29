@@ -15,7 +15,7 @@ function closeMenu(){
 
 window.addEventListener("scroll", ()=>{
     if(scrollY > 50){
-        navBar.classList.add('bg-opacity-50', 'backdrop-blur-lg', 'shadow-sm', 'transition', 'duration-400', 'bg-white');
+        navBar.classList.add( 'bg-[#fffff0]','backdrop-blur-lg', 'shadow-sm', 'transition', 'duration-400',);
         navLinks.classList.remove('bg-white', 'shadow-sm', 'bg-opacity-50');
     } else{
         navBar.classList.remove("bg-white", 'bg-opacity-50', 'backdrop-blur-lg', 'shadow-sm');
@@ -23,3 +23,22 @@ window.addEventListener("scroll", ()=>{
     }
 });
 
+
+
+
+  ///////////////
+  // Scroll Reveal Animation
+  ///////////////
+  const animate = ScrollReveal({
+    origin: 'top',
+    distance: '60px',
+    duration: '2500',
+    delay: '400',
+
+  });
+
+  animate.reveal(".nav");
+  animate.reveal(".animation-left", {origin: "left"});
+  animate.reveal(".animation-bottom", {origin: "bottom"});
+  animate.reveal(".animation-right",{origin : "right"});
+  animate.reveal(".boxes", {intervel: 100});

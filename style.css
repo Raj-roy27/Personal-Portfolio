@@ -6,3 +6,21 @@
 .spin{
    animation: spin 6s linear infinite;
 }
+
+/* Custom Scroll Bar */
+html::-webkit-scrollbar {
+  width: 0.7rem;
+  background: transparent;
+}
+
+html::-webkit-scrollbar-thumb {
+  background-image: linear-gradient(#6d51a5, #e4a7c5);
+}
+
+
+#net-container{
+    background-image: url(./images/netflix.png);
+}
+#qcafe{
+    background-image: url(./images/MixCollage-29-Jul-2025-10-21-PM-5130.jpg);
+}
