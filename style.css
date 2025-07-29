@@ -1,0 +1,8 @@
+@import "tailwindcss";
+
+.font-ovo{
+    font-family: "Ovo", serif;
+}
+.spin{
+   animation: spin 6s linear infinite;
+}
