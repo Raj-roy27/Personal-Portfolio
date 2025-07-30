@@ -20,15 +20,22 @@
       rel="stylesheet"
     />
   </head>
+
   <body class="overflow-x-hidden font-ovo">
     <div class="fixed top-0 right-0 w-11/12 -z-10 translate-y-[-80%]">
       <img src="images/header-bg-color.png" alt="" class="w-full" />
     </div>
-
+    <!-- Custom Cursor -->
+    <div id="cursor"></div>
     <nav
       class="w-full fixed px-5 lg:px-8 xl:px-[8%] py-4 flex items-center justify-between z-50 nav"
     >
-      <img src="images/R-logo.jpg" alt="" class="w-30 cursor-pointer mr-14" />
+      <img
+        src="images/R-logo.jpg"
+        alt=""
+        class="w-30 cursor-pointer mr-14"
+        href="./index.html"
+      />
 
       <ul
         class="hidden md:flex items-center gap-6 lg:gap-8 rounded-full px-12 py-3 bg-white shadow-sm opacity-50 font-ovo"
@@ -86,7 +93,7 @@
         class="rounded-full w-40 object-cover nav"
       />
       <h3 class="flex items-center gap-2 text-xl md:text-2xl mb-3 nav">
-        Hi! I'm Raj Roy 
+        Hi! I'm Raj Roy
       </h3>
       <h1 class="text-3xl sm:text-6xl lg:text-[60px] nav">
         frontend web developer
@@ -97,7 +104,9 @@
         real-world projects to sharpen my craft.
       </p>
 
-      <div class="flex flex-col sm:flex-row items-center gap-4 mt-4 animation-right">
+      <div
+        class="flex flex-col sm:flex-row items-center gap-4 mt-4 animation-right"
+      >
         <a
           href="#contact"
           class="px-10 py-3 border rounded-full bg-gradient-to-r from-[#6d51a5] to-[#e4a7c5] text-white flex items-center gap-2"
@@ -116,7 +125,7 @@
 
     <!-- About me -->
 
-    <div id="about" class="w-full px-[12%] py-10 scroll-mt-16">
+    <div id="about" class="w-full px-[12%] py-10 scroll-mt-20">
       <h4 class="text-center mb-2 text-lg nav">Introduction</h4>
       <h2 class="text-center text-5xl nav">About me</h2>
       <div class="flex w-full flex-col lg:flex-row items-center gap-20 my-20">
@@ -186,7 +195,7 @@
             <li
               class="flex items-center justify-center w-12 sm:w14 aspect-square border border-gray-400 rounded-lg cursor-pointer hover:-translate-y-1 duration-500"
             >
-              <img src="images/mongodb.png" alt="" class="w-5 sm:w-7" />
+              <img src="images/netlify-icon.svg" alt="" class="w-5 sm:w-7" />
             </li>
             <li
               class="flex items-center justify-center w-12 sm:w14 aspect-square border border-gray-400 rounded-lg cursor-pointer hover:-translate-y-1 duration-500"
@@ -257,7 +266,7 @@
         <div
           class="border border-gray-400 rounded-lg px-8 py-12 hover:shadow-[4px_4px_0_#000] cursor-pointer hover:bg-[#fcf4ff] hover:-translate-y-1 duration-500"
         >
-          <img src="images/picture_15885842.png" alt="" class="w-10" />
+          <img src="images/graphic-piicture.png" alt="" class="w-10" />
           <h3 class="text-lg my-4 text-gray-700">Graphic Design</h3>
           <p class="text-sm text-gray-600 leading-5">
             Web development is the process of building, programming...
@@ -281,25 +290,28 @@
       <div
         class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 my-10 gap-5"
       >
-        <div id="net-container"
+        <div
+          id="net-container"
           class="aspect-square bg-no-repeat bg-cover bg-center rounded-lg relative cursor-pointer group"
-        > <a href="https://a36078.netlify.app/">
-          <div
-            class="bg-white w-10/12 rounded-md absolute bottom-5 left-1/2 -translate-x-1/2 py-3 px-5 flex items-center justify-between duration-500 group-hover:bottom-7"
-          >
-            <div>
-              <h2 class="font-semi">Netflix Clone</h2>
-              <p class="text-sm text-gray-700">Responsive UI</p>
-            </div>
+        >
+          <a href="https://a36078.netlify.app/">
             <div
-              class="border rounded-full border-black w-9 aspect-square flex items-center justify-center shadow-[2px_2px_0_#000] group-hover:bg-lime-300 transition"
+              class="bg-white w-10/12 rounded-md absolute bottom-5 left-1/2 -translate-x-1/2 py-3 px-5 flex items-center justify-between duration-500 group-hover:bottom-7"
             >
-              <img src="images/send-icon.png" alt="" class="w-5" />
-            </div>
-          </div></a>
+              <div>
+                <h2 class="font-semi">Netflix Clone</h2>
+                <p class="text-sm text-gray-700">Responsive UI</p>
+              </div>
+              <div
+                class="border rounded-full border-black w-9 aspect-square flex items-center justify-center shadow-[2px_2px_0_#000] group-hover:bg-lime-300 transition"
+              >
+                <img src="images/send-icon.png" alt="" class="w-5" />
+              </div></div
+          ></a>
         </div>
 
-        <div id="qcafe"
+        <div
+          id="qcafe"
           class="aspect-square bg-no-repeat bg-cover bg-center rounded-lg relative cursor-pointer group"
         >
           <div
@@ -391,8 +403,16 @@
         feedback, please use the form below.
       </p>
 
-      <form method="POST" action="https://api.web3forms.com/submit" class="max-w-2xl mx-auto">
-        <input type="hidden" name="access_key" value="fa0162e6-84a5-482f-9eb3-8f818856cd14">
+      <form
+        method="POST"
+        action="https://api.web3forms.com/submit"
+        class="max-w-2xl mx-auto"
+      >
+        <input
+          type="hidden"
+          name="access_key"
+          value="fa0162e6-84a5-482f-9eb3-8f818856cd14"
+        />
 
         <div
           class="grid grid-cols-1 sm:grid-cols-2 gap-4 sm:gap-6 mt-6 sm:mt-10 mb-6 sm:mb-8"
@@ -401,12 +421,16 @@
             type="text"
             placeholder="Enter Your Name"
             class="w-full p-3 outline-none border border-gray-400 rounded-md bg-white"
-          required name="name"/>
+            required
+            name="name"
+          />
           <input
             type="email"
             placeholder="Enter Your Email"
             class="w-full p-3 outline-none border border-gray-400 rounded-md bg-white"
-          required name="email"/>
+            required
+            name="email"
+          />
         </div>
         <textarea
           name="textarea"
@@ -414,7 +438,9 @@
           rows="6"
           placeholder="Enter Your Message"
           class="w-full p-4 outline-none border border-gray-400 rounded-md bg-white mb-6"
-        required name="message"></textarea>
+          required
+          name="message"
+        ></textarea>
         <button
           class="py-3 px-8 flex items-center justify-center gap-2 bg-black/80 text-white rounded-full mx-auto hover:bg-black transition duration-500"
         >
@@ -448,6 +474,13 @@
       </div>
     </div>
 
+    <!-- GSAP Link -->
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.13.0/gsap.min.js"
+      integrity="sha512-NcZdtrT77bJr4STcmsGAESr06BYGE8woZdSdEgqnpyqac7sugNO+Tr4bGwGF3MsnEkGKhU2KL2xh6Ec+BqsaHA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
     <!-- ScrollReveal -->
     <script src="https://unpkg.com/scrollreveal"></script>
     <!-- Script.js File -->
