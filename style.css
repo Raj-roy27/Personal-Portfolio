@@ -39,8 +39,4 @@ nav ul li a:hover{
   background: linear-gradient(#6d51a5, #e4a7c5);
   position: fixed;
   border-radius: 50%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
 }
